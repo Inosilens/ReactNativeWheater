@@ -67,7 +67,7 @@ export default function App() {
     } else {
         return (
 
-            <ImageBackground source={require('./saint.jpg')} resizeMode={"contain"}
+            <ImageBackground source={require('./assets/saint.jpg')} resizeMode={"contain"}
                              style={{width: '100%', height: '100%'}}>
                 <View style={styles.wheaterContainer}>
                     <Text style={styles.text1}>
